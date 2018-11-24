@@ -16,8 +16,14 @@
   <a href="https://www.collabcode.training">CollabCode.Training</a>
   ```
 
-  - `<nav>` -Navigation
-    representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.
+- `<nav>` -Navigation
+  representa uma seção de uma página que aponta para outras páginas ou para outras áreas da página, ou seja, uma seção com links de navegação.
 
-    - `<header>` - Cabeçalho
-      Pode conter alguns elementos de cabeçalho mas também outros elementos como um logo, seções de cabeçalho,
+- `<header>` - Cabeçalho
+  Pode conter alguns elementos de cabeçalho mas também outros elementos como um logo, seções de cabeçalho,
+
+# CSS
+
+É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
+
+- Visual;
