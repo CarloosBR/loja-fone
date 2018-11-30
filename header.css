@@ -22,3 +22,7 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+#central {
+  margin: 0px 60px;
+}
