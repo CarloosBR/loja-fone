@@ -27,3 +27,18 @@
 É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
 
 - Visual;
+
+## Float
+
+- Cria um novo contexto
+  - Passa a existir: contexto da página e contexto que do float.
+  - O elemento pai ignora o contexto do float
+- Nunca esconde um conteúdo
+- O conteúdo define a altura e largura do elemento.
+
+## Propriedades
+
+- `overflow: hidden;`
+  - Recalcular contexto de elemento quando tem filho float.
+    - Quando o elemento não tem tamanho definido, ele assume os valores do contexto do float
+  - Caso o elemento tiver altura e largura definida e o conteúdo deste elemento ultrapassa os limites definidos, a parte do conteúdo que excedeu não será exibida.
