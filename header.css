@@ -21,13 +21,18 @@ nav {
   float: right;
 }
 
+.navigation-last {
+  clear: right;
+}
+
 a {
   text-decoration: none;
   color: inherit;
+  margin-right: 60px;
 }
 
-#central {
-  margin: 0px 60px;
+.last {
+  margin-right: 0;
 }
 
 .btn1 {

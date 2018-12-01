@@ -45,6 +45,10 @@
     - Quando o elemento não tem tamanho definido, ele assume os valores do contexto do float
   - Caso o elemento tiver altura e largura definida e o conteúdo deste elemento ultrapassa os limites definidos, a parte do conteúdo que excedeu não será exibida.
 
+### [004 - 1] Seletores de tag, id e class
+
+- `clear`: Especifica se um elemento pode ter elementos flutuantes ao seu lado
+
 ### [003 - 4] Respiros, interno e externo
 
 - `margin`: Respiro/espaçamento externo. Utilizar quando quiser afastar elementos um do outro.
@@ -61,4 +65,38 @@ EX: margin: 20px  15px 20px 15px;
 EX: padding: 20px  15px 20px 15px;
     padding: 20px 15px;
     padding: 20px;
+```
+
+## Seletores
+
+### TAG
+
+-Estiliza tags do mesmo tipo.
+
+```
+a{
+
+}
+```
+
+### ID
+
+- Deve ser único na página
+- Utilizado raramente.
+
+```
+#last{
+
+}
+```
+
+### CLASS
+
+- Pode ser utilizado varias vezes na mesma página
+- Utilizado frequentemente
+
+```
+.last{
+
+}
 ```
