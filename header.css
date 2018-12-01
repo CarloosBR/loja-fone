@@ -34,20 +34,3 @@ a {
 .last {
   margin-right: 0;
 }
-
-.btn1 {
-  color: #fff;
-  font-size: 20px;
-  font-family: Arial, "Roboto", sans-serif;
-  background-color: #252c41;
-  width: 200px;
-  height: 60px;
-  padding: 17px 60px 21px;
-  box-sizing: border-box;
-  display: inline-block;
-
-  /*apenas para não ficar proximo do header*/
-  position: fixed;
-  right: 225px;
-  bottom: 65px;
-}
