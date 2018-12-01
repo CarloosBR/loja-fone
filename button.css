@@ -9,9 +9,4 @@
   width: 200px;
   height: 60px;
   margin-right: 0;
-
-  /*apenas para não ficar proximo do header*/
-  position: absolute;
-  right: 225px;
-  bottom: 65px;
 }
