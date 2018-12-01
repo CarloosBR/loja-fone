@@ -4,6 +4,9 @@ header {
   overflow: hidden;
   margin: 0 115px;
   padding: 55px 60px 95px; /*top right/left bottom*/
+  position: relative;
+  top: 50vh;
+  transform: translateY(-50%);
 }
 
 h1 {
