@@ -97,6 +97,19 @@ EX: padding: 20px  15px 20px 15px;
   - O que define a largura e altura por padrão é o conteúdo;
   - Propriedades: top, bottom, left e right movem em relação a página
 
+### **`[005] Emmet no CSS é top mas box-sizing é mais`**
+
+- AJUSTAR ESSA PARTE
+
+```
+    Quando você tem 2 elementos display inline o que vai alinha por padrão é a base da texto/linha
+    Vertical-align: Propriedade que permemite alinhar verticalmente elementos display inline que estejam um ao lado do outro;
+
+    box-sizing:
+    Content-box: Soma o tamanho da borda com width/height do elemento(Esse é o padrão);
+    border-box: O tamanho da borda é considerado como parte do width/height do elemento.
+```
+
 ## Seletores
 
 ### TAG
@@ -130,3 +143,11 @@ a{
 
 }
 ```
+
+# Outros assuntos
+
+## [005] Emmet no CSS é top mas box-sizing é mais
+
+- `Call to action` ou `C T A`: Termo utilizado para fazer referência ao botão final(O botão principal que você deseja que a pessoa clique);
+  -Ex: Botão comprar;
+  -Ex do que não é: Botão "adicionar ao carrinho".
