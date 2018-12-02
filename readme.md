@@ -22,6 +22,9 @@
 - `<header>` - Cabeçalho
   Pode conter alguns elementos de cabeçalho mas também outros elementos como um logo, seções de cabeçalho,
 
+  - `<div>` - Divisão
+    Não tem valor semântico, serve apenas para dividir visualmente conteúdos
+
 # CSS
 
 É uma linguagem de estilo, isso quer dizer que ela tem as seguintes responsabilidades:
