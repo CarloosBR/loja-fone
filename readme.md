@@ -87,6 +87,13 @@ EX: padding: 20px  15px 20px 15px;
   - Útil quando precisar alinhar verticalmente uma única linha;
   - Bem eficiente com texto de botões.
 
+### **`[004-04] position: absolute e porcentagem`**
+
+- **_position: absolute_**
+  - Cria um novo contexto;
+  - O que define a largura e altura por padrão é o conteúdo;
+  - Propriedades: top, bottom, left e right movem em relação a página
+
 ## Seletores
 
 ### TAG
