@@ -1,0 +1,45 @@
+.description-fone {
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.description_title {
+  font-size: 25px;
+  margin: 154px 0 100px;
+}
+
+.description_item {
+  font-size: 20px;
+  margin-bottom: 28px;
+}
+
+.container_prices {
+  width: 203px;
+}
+
+.spacing {
+  float: right;
+}
+
+.description_item.-upper {
+  text-transform: uppercase;
+}
+
+.description_item.-last {
+  margin-bottom: 73px;
+}
+
+.description_text {
+  font-size: 18px;
+  line-height: 30px;
+  margin-bottom: 30px;
+}
+
+.description_text.-last {
+  margin-bottom: 98px;
+}
+
+.description_link {
+  text-decoration: none;
+  color: inherit;
+}
