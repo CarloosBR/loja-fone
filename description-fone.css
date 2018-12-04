@@ -2,6 +2,10 @@
   color: white;
   font-family: "Roboto", sans-serif;
 }
+.container-description {
+  width: 553px;
+  float: right;
+}
 
 .description_title {
   font-size: 25px;

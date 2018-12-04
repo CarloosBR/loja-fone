@@ -1,0 +1,14 @@
+.container-image {
+  position: absolute;
+  left: 0;
+  width: 601px;
+  height: 547px;
+  background-color: white;
+  margin-top: 122px;
+  border-radius: 0 140px 140px 0;
+}
+
+.image-fone {
+  position: relative;
+  left: 105px;
+}
