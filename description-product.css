@@ -10,11 +10,11 @@
 
 .description-product > .item {
     font-size: 20px;
-    width: 200px;
     margin-bottom: 28px;
 }
 
 .description-product > .item.-info {
+    width: 200px;
     text-align: right;
 }
 
@@ -31,10 +31,7 @@
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 32px;
-}
-
-.description-product > .text.-more {
-    margin-bottom: 98px;
+    text-align: justify;
 }
 
 .description-product .action {
