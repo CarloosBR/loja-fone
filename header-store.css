@@ -18,6 +18,22 @@
     float: right;
 }
 
+.header-store .search {
+    color: #fff;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: Arial, "Roboto", sans-serif;
+    width: 355px;
+    margin-right: 65px;
+    padding-bottom: 8px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.header-store .search::placeholder {
+    color: #fff;
+}
+
 .header-store .action {
     text-decoration: none;
     color: inherit;
