@@ -29,6 +29,7 @@
     width: 358px;
     margin-right: 65px;
     padding: 8px;
+    vertical-align: baseline;
 }
 
 .header-store ::placeholder {
@@ -36,14 +37,16 @@
 }
 
 .header-store .action {
+    display: inline-block;
     text-decoration: none;
     color: inherit;
     margin-right: 60px;
     padding-bottom: 8px;
+    border-bottom: 1px solid transparent;
 }
 
 .header-store .action:hover {
-    border-bottom: 1px solid #fff;
+    border-bottom-color: #fff;
 }
 
 .header-store .-last {
