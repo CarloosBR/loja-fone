@@ -7,10 +7,17 @@
 */
 const $heart = window.document.querySelector(".-heart");
 const $addToCart = window.document.querySelector(".-second");
+const $actionCart = window.document.querySelector(".action.-last");
+var numberCart = 10;
 
 $heart.addEventListener("click", handleClick);
-$addToCart.addEventListener("click", handleClick);
+$addToCart.addEventListener("click", addToCart);
 
 function handleClick() {
     console.log("ae");
+}
+
+function addToCart() {
+    numberCart++;
+    $actionCart.innerHTML = "Carrinho(" + numberCart + ")";
 }
