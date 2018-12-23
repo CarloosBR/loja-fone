@@ -6,7 +6,9 @@
     5 - No momento que o usuário clicar, nós queremos mostrar um texto AE
 */
 const $heart = window.document.querySelector(".-heart");
+const $addToCart = window.document.querySelector(".-second");
 
+console.log($addToCart);
 $heart.addEventListener("click", handleClick);
 
 function handleClick() {
