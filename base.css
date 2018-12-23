@@ -1,3 +1,5 @@
+html,
 body {
-    background: linear-gradient(#252a34, #ff2e63);
+    height: 100%;
+    background: linear-gradient(to bottom, #252a34, #ff2e63);
 }
