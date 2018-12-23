@@ -8,8 +8,8 @@
 const $heart = window.document.querySelector(".-heart");
 const $addToCart = window.document.querySelector(".-second");
 
-console.log($addToCart);
 $heart.addEventListener("click", handleClick);
+$addToCart.addEventListener("click", handleClick);
 
 function handleClick() {
     console.log("ae");
